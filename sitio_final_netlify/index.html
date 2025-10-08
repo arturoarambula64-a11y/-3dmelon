@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Corazón de melón - Joyería y accesorios con esencia mexicana." name="description"/>
+  <title>
+   Corazón de melón
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="site-header">
+   <a class="brand" href="#inicio">
+    Corazón de melón
+   </a>
+   <button aria-controls="nav" aria-expanded="false" class="nav-toggle" id="nav-toggle">
+    ☰
+   </button>
+   <nav class="site-nav" id="nav">
+    <ul>
+     <li>
+      <a href="#inicio">
+       Inicio
+      </a>
+     </li>
+     <li>
+      <a href="#colecciones">
+       Colecciones
+      </a>
+     </li>
+     <li>
+      <a href="#historia">
+       Historia
+      </a>
+     </li>
+     <li>
+      <a href="#contacto">
+       Contacto
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <main id="inicio">
+   <section class="hero">
+    <div class="hero-content">
+     <h1>
+      Corazón de melón
+     </h1>
+     <p>
+      Joyería y accesorios con raíces mexicanas, llenos de color, historia y pasión.
+     </p>
+     <a class="btn primary" href="#colecciones">
+      Descubrir
+     </a>
+    </div>
+    <div aria-hidden="true" class="hero-visual">
+     <img alt="Botella ilustrada" src="1000001123-removebg-preview.png"/>
+    </div>
+   </section>
+   <section class="section" id="colecciones">
+    <h2>
+     Colecciones
+    </h2>
+    <p class="section-lead">
+     Piezas únicas que celebran la cultura mexicana.
+    </p>
+    <div class="cards">
+     <article class="card">
+      <img alt="Calavera comiendo elote" class="card-img" src="1000001183-removebg-preview.png"/>
+      <h3>
+       Corazones
+      </h3>
+      <p>
+       Accesorios inspirados en milagritos y símbolos tradicionales.
+      </p>
+     </article>
+     <article class="card">
+      <img alt="Ilustración chica con gafas corazón" class="card-img" src="c1aaefe2a3f088b20bc854b500130fc9.jpg"/>
+      <h3>
+       Colores
+      </h3>
+      <p>
+       Joyas que reflejan la vitalidad de nuestras fiestas y artesanías.
+      </p>
+     </article>
+     <article class="card">
+      <h3>
+       Raíces
+      </h3>
+      <p>
+       Diseños con historia, herencia y orgullo de México.
+      </p>
+     </article>
+    </div>
+   </section>
+   <section class="section alt" id="historia">
+    <h2>
+     Nuestra historia
+    </h2>
+    <p>
+     Corazón de melón nace de la pasión por la joyería y el amor a las tradiciones mexicanas. Cada pieza es un homenaje a los colores, símbolos y recuerdos que nos unen.
+    </p>
+   </section>
+   <section class="section" id="contacto">
+    <h2>
+     Contacto
+    </h2>
+    <p class="section-lead">
+     ¿Quieres una pieza especial? Escríbenos.
+    </p>
+    <form id="contact-form" novalidate="">
+     <label>
+      Nombre
+      <input name="nombre" required="" type="text"/>
+     </label>
+     <label>
+      Email
+      <input name="email" required="" type="email"/>
+     </label>
+     <label>
+      Mensaje
+      <textarea name="mensaje" required="" rows="4"></textarea>
+     </label>
+     <button class="btn primary" type="submit">
+      Enviar
+     </button>
+     <p id="form-status" role="status">
+     </p>
+    </form>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <p>
+    ©
+    <span id="year">
+    </span>
+    Corazón de melón. Hecho en México.
+   </p>
+  </footer>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
